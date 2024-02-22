@@ -53,7 +53,7 @@ export default function Addinfo() {
       )
       .then(() => {
         fetchData();
-        alert("Deleted ");
+        alert("you are deleting ");
       });
   };
 
@@ -77,7 +77,7 @@ export default function Addinfo() {
       )
       .then((res) => {
         fetchData();
-        alert("Updated");
+        alert("your are updating");
         setUpdate(false);
       });
   };
